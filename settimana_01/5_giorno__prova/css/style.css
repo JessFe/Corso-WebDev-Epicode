@@ -1,0 +1,186 @@
+/* Your styles here */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* ----- */
+
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3;
+    line-height: 1.5;    
+}
+
+h1 {
+    font-size: 2.3rem;
+    line-height: 1;
+}
+
+
+/* HEADER */
+
+header #logo {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+header img {
+    width: 35%;
+}
+
+header #blocco-1 {
+
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 40px 50px;
+
+}
+
+header #blocco-1 p {
+    padding: 15px 0px 40px;
+
+}
+
+header .button {
+    background-color: #f04c2f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    margin: 60px 0px;
+}
+
+
+/* MAIN */
+
+article #blocco-2 {
+    background-color: #fff;
+    padding: 50px 40px;
+}
+
+article #blocco-2 h2 {
+    margin: 20px 0px 10px;
+}
+
+article #blocco-2 p {
+    margin: 0px 0px 20px;
+}
+
+article #blocco-2 img {
+    border-radius: 50%;
+    width: 80%;
+}
+
+article #blocco-3 {
+    background-color: #e22d0e;
+    padding: 50px 20px 40px;
+    color: #fff;
+}
+
+article #blocco-3 h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+article #blocco-3 q {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+article #blocco-3 q::before,
+article #blocco-3 q::after {
+    content: '"'; 
+}
+
+article #blocco-3 p {
+    margin-top: 30px;
+}
+
+article #blocco-3 p:last-child {
+    font-size: 0.9rem;
+    margin-top: 0px;
+}
+
+aside {
+    background-color: #fff;
+    padding: 40px 25px;
+}
+
+aside > div {
+    margin: 30px 10px;
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+}
+
+aside > div div {
+    padding: 10px 20px 30px;
+}
+
+aside img {
+    width: 100%;
+}
+
+aside a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+}
+
+aside p {
+    font-size: 1rem;
+    padding: 10px 0px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    padding: 40px 0px 60px;
+    color: #c8e7f0;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 1.9rem;
+}
+
+footer ul {
+    margin: 20px;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer hr {
+    width: 50%;
+}
+
+footer p {
+    font-size: 0.9rem;
+    padding: 30px 0px;
+    border-top: 1px solid #c8e7f0;
+    display: inline;
+}
+
+footer i {
+    color: #fff;
+    margin-right: 5px;
+}
