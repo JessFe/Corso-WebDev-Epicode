@@ -1,0 +1,214 @@
+/* IMPOSTAZIONI GENERALI */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body {
+    background-image: url(../img/sfondo.png);
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 110%;
+    padding: 1.2rem;
+}
+
+/* HEADER */
+
+header {
+    background-image: linear-gradient(#009dc5, #047088);
+    text-align: center;
+    padding: 2.2rem;
+    box-shadow: 0px 3px 4px #333;
+    font-size: 1rem;
+}
+
+header img {
+    width: 230px;
+}
+
+header p,
+header a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+header p {
+    padding: 2rem 0 1.5rem;
+}
+
+header nav li{
+    padding: 0.3rem 0;
+}
+
+/* MAIN */
+
+main {
+    background-color: white;
+    margin: 1.2rem 0;
+    box-shadow: 0 3px 4px #333;
+    padding: 0 1rem 2rem;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+main h1 {
+    font-size: 1.8rem;
+    padding: 2.3rem 0;
+    line-height: 2.5rem;
+}
+
+main h1 + p {
+    color: #aaa;
+}
+
+main p,
+main ul,
+ol,
+table {
+    margin-bottom: 1.6rem;
+    line-height: 1.5rem;
+}
+
+main article span {
+    color: #a81969;
+    font-weight: bold;
+}
+
+main article ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+main article code {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+
+main article h2 {
+    line-height: 1.5rem
+}
+
+main ol {
+    list-style: number;
+    padding-left: 2rem;
+}
+
+main article a {
+    color: #009dc5;
+    font-weight: bold;
+}
+
+main article iframe {
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 2em;
+}
+
+/* TABELLA */
+
+table {
+    border-bottom: 2px solid #3165cc;
+}
+
+table caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+table thead tr {
+    background-color: #3165cc;
+    color: #fff;
+}
+
+th, td {
+    padding: 1rem;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #eee;
+}
+
+/* SECTION */
+
+main section { 
+    background-color: #eee;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+main section h2,
+main aside h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1.7rem;
+}
+
+/* FORM */
+
+form input {
+    padding: 7px;
+    border: none;
+    border-bottom: 1px dashed #333;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 6px 9px;
+    background-color: #3165cc;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+main aside div {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+main aside p:last-child {
+    margin-bottom: 0;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+main aside a {
+    color: #009dc5;
+    font-weight: bold;
+    display: block;
+    padding: 0.3rem 0;
+}
+
+/* FOOTER */
+
+footer {
+    background: linear-gradient(#016172, #2e3638);
+    box-shadow: 0 3px 4px #333;
+    text-align: center;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 1rem 0 1.5rem;
+    line-height: 1.2rem;
+}
+
+footer p {
+    margin-bottom: 0.8rem;
+}
+
+footer a {
+    color: #f0f;
+}
