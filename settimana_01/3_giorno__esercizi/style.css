@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #383838;
+    text-align: center;
+}
+
+/* header */
+
+header img {
+    width: 200px;
+    padding: 1rem;
+}
+
+header div {
+    background-color: #fdfbf1;
+    border-top: 1px solid #ffda7d;
+    padding: 1rem;
+}
+
+header p {
+    color: #004746;
+    font-size: 0.8rem;
+}
+
+header span {
+    text-transform: uppercase;
+    color: #004746;
+    font-weight: 700;
+}
+
+/* main */
+
+main {
+    width: 50%;
+    margin: auto;
+}
+
+main article h1 {
+    text-align: center;
+    margin: 4rem 0 2rem;
+}
+
+main article p {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+main article video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px #777;
+}
+
+main article #author {
+    text-align: center;
+    color: #777;
+    margin-top: 1rem;
+}
+
+main article div {
+    border-left: 2px solid #ffda7d;
+    padding-left: 1rem;
+    text-align: left;
+    margin: 2rem 0;
+}
+
+main article div p {
+    text-transform: uppercase;
+    color: #b64712;
+}
+
+main article div a {
+    color: #117b78;
+}
+
+main article section h2 {
+    margin-top: 3rem;
+    text-align: left;
+    font-weight: 200;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(212, 246, 250);
+    padding-bottom: 1rem;
+}
+
+main article section:first-of-type p {
+    font-weight: bold;
+    margin: 2rem 0 1rem;
+}
+
+main article section li {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+main article section ol {
+    margin: 2rem 0 1rem;
+}
+
+main article section ol li {
+    font-weight: bold;
+}
+
+main article section a {
+    color: #117b78;
+
+}
