@@ -72,7 +72,7 @@ if (totalShoppingCart <= 50) {
 */
 
 console.log("Esercizio 6:")
-let totalShoppingCartBF = (totalShoppingCart * 0.8 * 100 / 100);
+let totalShoppingCartBF = (totalShoppingCart * 0.8);
 if (totalShoppingCartBF <= 50) {
   console.log("Checkout: €" + (totalShoppingCartBF + costoSpedizione).toFixed(2));
 } else {
