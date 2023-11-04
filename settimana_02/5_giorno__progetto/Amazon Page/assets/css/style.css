@@ -1,0 +1,191 @@
+/* Your styles here */
+
+/* 1440*1024 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeded;
+}
+
+/* Header */
+
+header img {
+    width: 7rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    list-style: none;
+    padding-right: 1.25rem;
+}
+
+/* Main */
+
+main {
+    margin: 2rem;
+}
+
+main > div:first-child {
+    background-color: #f66502;
+}
+
+main > div:nth-child(2) {
+    background-image: url("../images/bg-image.png");
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;    
+}
+
+main h1,
+main h2 {
+    font-weight: bold;
+}
+
+main h1 {
+    font-size: 2rem;
+}
+
+main h2 {
+    font-size: 1.1rem;
+}
+
+main > div:nth-child(3) {
+    background-color: #fff;
+}
+
+main > div:nth-child(3) div {
+    display: flex;
+    justify-content: space-between;
+}
+
+main > div:nth-child(3) div div {
+    width: 18.5rem;
+    height: 23rem;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0.5rem;
+    box-shadow: 5px 5px 20px #ccc;
+}
+
+main > div:nth-child(3) div div:nth-child(1) {
+    background-image: url(../images/img_1.jpg);
+}
+
+main > div:nth-child(3) div div:nth-child(2) {
+    background-image: url(../images/img_2.jpg);
+}
+
+main > div:nth-child(3) div div:nth-child(3) {
+    background-image: url(../images/img_3.jpg);
+}
+
+main > div:nth-child(3) div div:nth-child(4) {
+    background-image: url(../images/img_4.jpg);
+}
+
+main > div:nth-child(4) div:first-child{
+    background-image: url("../images/img_9.png");
+}
+
+main > div:nth-child(5) div:first-child{
+    background-image: url("../images/img_10.png");
+}
+
+main > div:nth-child(4) div:first-child,
+main > div:nth-child(5) div:first-child {
+    background-size: cover;
+    height: 26rem;  
+}
+
+/* Footer */
+
+footer div:first-child {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+footer img {
+    width: 11rem;
+    padding: 4rem;
+}
+
+/* Components */
+
+.bg-drk {
+    background-color: #222f3f;
+}
+
+.bg-med {
+    background-color: #364759;
+}
+
+.txt-lgt {
+    color: #e9f3f9;
+}
+
+.txt-drk {
+    color: #333;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.m-b {
+    margin-bottom: 2rem;
+}
+
+.m-l {
+    margin-left: 2rem;
+}
+
+.m-r {
+    margin-right: 2rem;
+}
+
+.p-tb-sm {
+    padding: 0.5rem 0;
+}
+
+.link-lgt {
+    color: #e6f2fa;
+    text-decoration: none;
+}
+
+.link-col {
+    color: #008484;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.h-inline {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 1330px) {
+    main > div:nth-child(3) div div {
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    main > div:nth-child(3) div div {
+        width: 13.7rem;
+    }
+    
+    main > div:nth-child(2) {
+        background-size: contain;
+    }
+}
