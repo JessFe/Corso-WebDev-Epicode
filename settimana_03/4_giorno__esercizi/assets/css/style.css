@@ -1,0 +1,19 @@
+.cella-tabellone {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    margin: 1px;
+    background-color: white;
+}
+
+.evidenzia {
+    background-color: lightgreen;
+}
+
+.cartella {
+    display: inline-block;
+    margin-right: 20px;
+}
