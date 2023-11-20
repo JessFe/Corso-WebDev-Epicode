@@ -192,7 +192,7 @@ footer a {
 }
 
 /* ------- */
-
+/* MQ mockup mobile-view */
 @media screen and (min-width: 576px) {
   body {
     padding: 20px;
@@ -318,8 +318,222 @@ footer a {
   }
 }
 
+/* MQ mockup medium-view */
 @media screen and (min-width: 768px) {
+  /* MAIN */
+  h1 {
+    font-size: 5.8rem;
+    margin-bottom: 0.8em;
+  }
+
+  p,
+  address,
+  ul,
+  ol,
+  dl,
+  blockquote {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  /* TABELLE */
+  table {
+    margin-block: 8rem;
+    margin-inline: auto;
+  }
+
+  /* FORM */
+  input {
+    padding: 15px;
+    display: inline-block;
+    width: 70%;
+  }
+
+  button {
+    padding: 14px 27px;
+  }
+
+  /* FOOTER */
+  footer p,
+  address {
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+  }
 }
 
+/* MQ mockup desktop-view */
 @media screen and (min-width: 1200px) {
+  body {
+    padding-block: 13px;
+  }
+
+  /* HEADER */
+  header {
+    padding: 1em 0em;
+    text-align: left;
+    margin-bottom: 1.5em;
+  }
+
+  header div {
+    width: 70%;
+  }
+
+  header div,
+  header nav,
+  header p,
+  header nav li {
+    display: inline-block;
+  }
+
+  header div img {
+    height: 50px;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+
+  header p {
+    font-size: 1.6rem;
+  }
+
+  header ul li {
+    font-size: 1.6rem;
+  }
+
+  /* MAIN */
+  header,
+  main,
+  footer {
+    width: 1000px;
+    margin-inline: auto;
+  }
+
+  main {
+    padding: 1.8em 1.8em;
+    margin-bottom: 1.5em;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0.5em;
+  }
+
+  p,
+  address,
+  ul,
+  ol,
+  dl,
+  blockquote {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  iframe,
+  section {
+    display: inline-block;
+    width: 50%;
+    margin-inline: -8px;
+    vertical-align: middle;
+    margin-bottom: 2rem;
+    padding: 1em;
+    border-radius: 20px;
+  }
+
+  iframe {
+    height: 245px;
+    border-radius: 30px;
+  }
+
+  section h2 {
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-bottom: 1.6em;
+  }
+
+  /* TABELLE */
+  table {
+    width: 70%;
+  }
+
+  caption {
+    font-size: 1.5rem;
+  }
+
+  thead tr {
+    font-size: 1.4rem;
+  }
+
+  tbody tr {
+    font-size: 1.4rem;
+  }
+
+  /* FORM */
+  input {
+    padding: 12px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  /* ASIDE */
+  aside h2 {
+    font-size: 2.7rem;
+  }
+
+  aside div {
+    display: inline-block;
+    width: 33.33%;
+    margin-inline: -2px;
+    font-size: 1.5rem;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 2em 15em;
+  }
+
+  footer p,
+  address {
+    font-size: 1.6rem;
+  }
+}
+
+@media print {
+  body {
+    font-size: 2.4rem;
+    padding: 0;
+    background-image: none;
+  }
+
+  main {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  thead tr {
+    background-color: none;
+    color: black;
+  }
+
+  thead tr,
+  tbody tr {
+    border-bottom: 1px solid #666;
+  }
+
+  header,
+  article section,
+  iframe,
+  aside,
+  footer {
+    display: none;
+  }
 }
